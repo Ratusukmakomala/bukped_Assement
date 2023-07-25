@@ -1,0 +1,5 @@
+// Contoh breakpoint di JavaScript
+function fungsiContoh() {
+  // Breakpoint akan berhenti di baris berikut saat diinspeksi di DevTools
+  console.log('Debugging di frontend');
+}
