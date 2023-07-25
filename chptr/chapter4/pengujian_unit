@@ -1,0 +1,4 @@
+test('Contoh pengujian unit', ()=> {
+   cost hasil = fungsiDiteguhkan(2,3);
+   expect(hasil).toBe(5);
+});
