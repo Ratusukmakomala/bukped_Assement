@@ -1,0 +1,1 @@
+var isStudent bool = true
