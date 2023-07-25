@@ -1,0 +1,3 @@
+<script>
+  console.log('Pesan log di frontend (JavaScript)');
+</script>
