@@ -1,0 +1,6 @@
+type Person struct {
+    Name string
+    Age  int
+}
+
+var person1 Person = Person{Name: "John Doe", Age: 30}
