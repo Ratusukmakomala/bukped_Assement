@@ -1,0 +1,9 @@
+// Contoh error handling di Express.js
+app.get('/endpoint', (req, res, next) => {
+  try {
+    // ... kode logika di sini ...
+    res.status(200).json(data);
+  } catch (err) {
+    next(err); // Jika terjadi kesalahan, lempar ke middleware penanganan kesalahan
+  }
+});
