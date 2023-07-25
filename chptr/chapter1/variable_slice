@@ -1,0 +1,1 @@
+var fruits []string = []string{"apple", "banana", "orange"}
